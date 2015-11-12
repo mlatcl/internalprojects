@@ -22,8 +22,8 @@ layout: default
   {% for section in site.types %}
   <h3 id="{{ section.name }}">{{ section.title }}</h3>
     {% for post in site.posts %}
-    {% if section.name == post.type %}
-    {% include projecct_list.html %}
+    {% if section.name == post.layout %}
+    {% include project_list.html %}
     {% endif %}
     {% endfor %}
   </dl>
