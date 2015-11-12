@@ -3,11 +3,11 @@
   <p class="details">
     <span class="supervisors">
       {% for person in post.supervisors %}
-      {{ person.firstname }} {{ author.lastname }},
+      <a href="{{ person.url }}">{{ person.firstname }} {{ person.lastname }}</a>&nbsp;&nbsp;
       {% endfor %}
     </span>
   </p>
   <p class="links">
-    [<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">abs</a>]
+    [<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Overview</a>]
   </p>
 </div>
