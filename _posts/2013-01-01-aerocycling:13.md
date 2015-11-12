@@ -13,8 +13,9 @@ key: AeroCycling:13
 categories:
 - MSc
 month: 0
-authors:
+supervisors:
 - firstname: Neil D.
   lastname: Lawrence
+  url: http://inverseprobability.com
 published: 2013-01-01
 ---

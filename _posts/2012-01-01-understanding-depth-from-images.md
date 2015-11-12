@@ -12,8 +12,9 @@ key: UnderstandingDepthFromImages:12
 categories:
 - MSc
 - Undergraduate
-authors:
+supervisors:
 - firstname: Neil D.
   lastname: Lawrence
+  url: http://inverseprobability.com
 published: 2012-01-01
 ---
