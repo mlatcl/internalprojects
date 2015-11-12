@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+
+</head>
+
+{% include project_abstract.html %}
+
+{% if site.comments %}
+{% include disqus_comment_code.html %}
+{% endif %}

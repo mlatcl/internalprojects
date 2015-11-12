@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1>Open Data Science Initiative Projects</h1>
+
+  <div id="sectionnav">
+    <p>Contents:</p>
+    <ul>
+      {% for section in site.sections %}
+      <li><a href="#{{ section.name }}">{{ section.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <label for="search-authors">Filter Authors:</label>
+    <input type="search" name="filter-authors" id="search-authors" value />
+    <label for="search-titles">Filter Titles:</label>
+    <input type="search" name="filter-titles" id="search-titles" value />
+  </div>
+  {% for section in site.types %}
+  <h3 id="{{ section.name }}">{{ section.title }}</h3>
+    {% for post in site.posts %}
+    {% if section.name == post.type %}
+    {% include projecct_list.html %}
+    {% endif %}
+    {% endfor %}
+  </dl>
+  {% endfor %}
+  <dl>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
+</div>
+<!-- Search Widget -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="../js/search.js"></script>

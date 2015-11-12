@@ -1,0 +1,31 @@
+<article class="post-content">
+  <h1>{{ page.title }}</h1>
+  <div id="supervisors">
+    <br>
+    {% for person in page.supervisors %}
+    {% include person.html %}
+    {% endfor %}
+  </div>
+  {% if page.contact %}
+  {% for person in page.contact %}
+  {% include person.html %}
+  {% endfor %}
+  {% endif %}
+  <h2>Abstract</h2>
+  <div id="abstract">
+    {{ page.abstract | markdownify }}
+  </div>
+  {% if page.extras %}
+  <h2>Related Material</h2>
+  <div id="extras">
+    <ul>
+      {% for extra in page.extras %}
+      <li><a href="{{ extra.link }}">{{ extra.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  <div id="content">
+    {{ content | markdownify }}
+  </div>
+</article>
