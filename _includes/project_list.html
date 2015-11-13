@@ -1,13 +1,21 @@
 <div class="paper">
-  <p class="title">{{ post.title }}</p>
+  <h4 class="title">{{ post.title }}</h4>
   <p class="details">
     <span class="supervisors">
-      {% for person in post.supervisors %}
-      <a href="{{ person.url }}">{{ person.firstname }} {{ person.lastname }}</a>&nbsp;&nbsp;
-      {% endfor %}
+      <b>Supervisor:</b>&nbsp;&nbsp;{% for person in post.supervisors %}
+      {% include person.html %}&nbsp;&nbsp;
+      {% endfor %}      
     </span>
   </p>
-  <p class="links">
-    [<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Overview</a>]
+  {% if post.contact %}
+  <p><b>Contact:</b>&nbsp;&nbsp;
+    {% for person in post.contact %}
+    {% include person.html %}&nbsp;&nbsp;
+    {% endfor %}
   </p>
+  {% endif %}  
+</p>
+<p class="links">
+  [<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Overview</a>]
+</p>
 </div>

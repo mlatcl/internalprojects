@@ -15,8 +15,10 @@ month: 0
 supervisors:
 - firstname: Michael T.
   lastname: Smith
+  url: http://www.michaeltsmith.org.uk/
 contact:
 - firstname: Neil D.
   lastname: Lawrence
+  url: http://inverseprobability.com
 published: 2014-01-01
 ---
