@@ -1,5 +1,6 @@
+<hr>
 <div class="paper">
-  <h4 class="title">{{ post.title }}</h4>
+  <p class="title">{{ post.title }}</p>
   <p class="details">
     <span class="supervisors">
       <b>Supervisor:</b>&nbsp;&nbsp;{% for person in post.supervisors %}
@@ -8,7 +9,7 @@
     </span>
   </p>
   {% if post.contact %}
-  <p><b>Contact:</b>&nbsp;&nbsp;
+  <p><b>DSI Academic:</b>&nbsp;&nbsp;
     {% for person in post.contact %}
     {% include person.html %}&nbsp;&nbsp;
     {% endfor %}
