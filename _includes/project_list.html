@@ -1,5 +1,6 @@
-<hr>
+{% if post.running %}
 <div class="paper">
+  <hr>
   <p class="title">{{ post.title }}</p>
   <p class="details">
     <span class="supervisors">
@@ -21,3 +22,4 @@
   [<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Project Page</a>]
 </p>
 </div>
+{% endif %}
