@@ -6,30 +6,15 @@ layout: default
 
   <h1>Open Data Science Initiative Projects</h1>
 
-  <p>These projects are run by the open data science initiative. Different projects will be suitable for different students. If you wish to do a project with us then up to our capacity limit we will find a suitable project for you, but we cannot guarantee that all projects will be suitable for all students.</p>
-  
-  <div id="sectionnav">
-    <ul>
-      {% for section in site.sections %}
-      <li><a href="#{{ section.name }}">{{ section.title }}</a></li>
-      {% endfor %}
-    </ul>
+  <p>These projects are run by the open data science initiative. Different projects will be suitable for different students. </p>
 
-    <label for="search-supervisors">Filter Supervisors:</label>
-    <input type="search" name="filter-supervisors" id="search-supervisors" value />
-    <label for="search-titles">Filter Titles:</label>
-    <input type="search" name="filter-titles" id="search-titles" value />
-  </div>
-  {% for section in site.types %}
-  <h3 id="{{ section.name }}">{{ section.title }}</h3>
-    {% for post in site.posts %}
-    {% if section.name == post.layout %}
-    {% include project_list.html %}
-    {% endif %}
-    {% endfor %}
-  </dl>
-  {% endfor %}
-  <dl>
+  <p>You can find the following project pages here:
+
+    <ul>
+      <li><a href="./undergrad.html">Undergraduate Projects</a></li>
+      <li><a href="./msc.html">MSc Projects</a></li>
+      <li><a href="./phd.html">PhD Projects</a></li>
+    </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
   

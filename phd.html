@@ -1,0 +1,30 @@
+---
+layout: page
+title: PhD Projects
+---
+
+<div class="home">
+
+
+  
+  
+  <div id="sectionnav">
+
+    <label for="search-supervisors">Filter Supervisors:</label>
+    <input type="search" name="filter-supervisors" id="search-supervisors" value />
+    <label for="search-titles">Filter Titles:</label>
+    <input type="search" name="filter-titles" id="search-titles" value />
+  </div>
+    {% if section.name == 'phdproject' %}
+    {% include project_list.html %}
+    {% endif %}
+  </dl>
+  {% endfor %}
+  <dl>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
+</div>
+<!-- Search Widget -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="./js/search.js"></script>

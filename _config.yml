@@ -7,7 +7,9 @@ baseurl: "/dsiprojects" # the subpath of your site, e.g. /blog/
 url: "http://opendsi.cc" # the base hostname & protocol for your site
 types:
 - name: bscproject
-  title: Undergraduate and Masters Projects
+  title: Undergraduate
+- name: bscproject
+  title: Masters Projects
 - name: phdproject
   title: PhD Projects
 

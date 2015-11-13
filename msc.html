@@ -1,0 +1,30 @@
+---
+layout: page
+title: MSc Projects
+---
+
+<div class="home">
+
+
+  <p>These projects are run by the open data science initiative. Different projects will be suitable for different students. If you wish to do a project with us then up to our capacity limit we will find a suitable project for you, but we cannot guarantee that all projects will be suitable for all students.</p>
+  
+  <div id="sectionnav">
+
+    <label for="search-supervisors">Filter Supervisors:</label>
+    <input type="search" name="filter-supervisors" id="search-supervisors" value />
+    <label for="search-titles">Filter Titles:</label>
+    <input type="search" name="filter-titles" id="search-titles" value />
+  </div>
+    {% if section.name == 'bscproject' %}
+    {% include project_list.html %}
+    {% endif %}
+  </dl>
+  {% endfor %}
+  <dl>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
+</div>
+<!-- Search Widget -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="./js/search.js"></script>
