@@ -15,9 +15,11 @@ title: PhD Projects
     <label for="search-titles">Filter Titles:</label>
     <input type="search" name="filter-titles" id="search-titles" value />
   </div>
-  {% if section.name == "phdproject" %}
+  {% for post in site.posts reverse %}
+  {% if post.layout == "phdproject" %}
   {% include project_list.html %}
   {% endif %}
+  {% endfor %}
   
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
   
