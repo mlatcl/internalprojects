@@ -13,9 +13,9 @@ categories:
 - UnderstandingDepthFromImages:12
 month: 0
 supervisors:
-- firstname: Andreas
-  lastname: Damianou
-  url: http://staffwww.dcs.sheffield.ac.uk/people/A.Damianou/
+- firstname: Zhenwen
+  lastname: Dai
+  url: http://staffwww.dcs.shef.ac.uk/people/Z.Dai/
 contact:
 - firstname: Neil D.
   lastname: Lawrence
