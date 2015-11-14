@@ -1,16 +1,18 @@
 ---
-running: True
-year: 2014
 title: 'Scikic: The Artificial Psychic'
-abstract: |-
-  In this project you will contribute to an artificial psychic called scikic. The artificial psychic will work by querying a user on preferences about life (e.g. movies) and making predictions about what type of person the user is. Scikic could either be a web interface or a mobile phone app, but the main initial task will be to build scikic’s information engine. Initially scikic won’t be a very good artificial psychic (its information engine will be a little rusty), but over time scikic should be able to make good predictions about people using only a little information. Software for the project will be written according to the principles of open data science.
-  
-  This project will suit students with strong analytical skills, there will be a focus on linear algebra and probabilistic inference in the software.
 layout: bscproject
-key: Scikic:14
 categories:
 - MSc
 - Undergrad
+running: True
+year: 2014
+abstract: |-
+  In this project you will contribute to an artificial psychic called scikic ([`scikic.org`](scikic.org)). The artificial psychic works by querying a user on preferences about life (e.g. movies) and making predictions about what type of person the user is. Scikic consists of a front end (a web interface or a mobile app), and a back end (an information engine). At the moment Scikic isn’t a very good artificial psychic (its information engine is a little rusty, it doesn't have enough data), but over time Scikic will be able to make good predictions about people using only a little information. Software for the project will be written according to the principles of open data science.
+
+  The project is a collaboration with the start up company [CitizenMe](http://www.citizenme.com/).
+  
+  This project could suit students with strong analytical skills: for the inference engine there will be a focus on linear algebra and probabilistic inference in the software. However, we also need students with a good knowledge of web interfaces and a flair for design.
+key: Scikic:14
 month: 0
 supervisors:
 - firstname: Michael T.
