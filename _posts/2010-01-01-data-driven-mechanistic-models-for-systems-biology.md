@@ -15,6 +15,7 @@ month: 0
 supervisors:
 - firstname: Neil D.
   lastname: Lawrence
+  url: http://inverseprobability.com
 published: 2010-01-01
 year: 2010
 ---
