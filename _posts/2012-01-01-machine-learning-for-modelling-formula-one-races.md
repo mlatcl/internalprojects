@@ -18,6 +18,7 @@ supervisors:
 - firstname: Javier
   lastname: Gonzalez
   url: http://javiergonzalezh.github.io/
+contact:
 - firstname: Neil D.
   lastname: Lawrence
   url: http://inverseprobability.com
