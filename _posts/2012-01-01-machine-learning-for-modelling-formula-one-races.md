@@ -15,6 +15,9 @@ categories:
 - FormulaOneData:12
 month: 0
 supervisors:
+- firstname: Javier
+  lastname: Gonzalez
+  url: http://javiergonzalezh.github.io/
 - firstname: Neil D.
   lastname: Lawrence
   url: http://inverseprobability.com
