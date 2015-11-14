@@ -17,7 +17,7 @@
   </p>
   {% endif %}  
 </p>
-<p>{{ post.abstract }}</p>
+<p>{{ post.abstract | markdownify }}</p>
 <p class="links">
   [<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Project Page</a>]
 </p>
