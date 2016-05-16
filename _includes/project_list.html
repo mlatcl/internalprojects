@@ -4,13 +4,14 @@
   <p class="title">{{ post.title }}</p>
   <p class="details">
     <span class="supervisors">
-      <b>Supervisor:</b>&nbsp;&nbsp;{% for person in post.supervisors %}
+      <b>Supervisor:</b>&nbsp;&nbsp; {% assign lastone = post.supervisors | last %}{% for person in post.supervisors %}
       {% include listperson.html %}&nbsp;&nbsp;
       {% endfor %}      
     </span>
   </p>
   {% if post.contact %}
   <p><b>DSI Academic:</b>&nbsp;&nbsp;
+    {% assign lastone = post.contact | last %}
     {% for person in post.contact %}
     {% include listperson.html %}&nbsp;&nbsp;
     {% endfor %}
