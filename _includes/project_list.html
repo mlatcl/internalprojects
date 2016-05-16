@@ -5,14 +5,14 @@
   <p class="details">
     <span class="supervisors">
       <b>Supervisor:</b>&nbsp;&nbsp;{% for person in post.supervisors %}
-      {% include person.html %}&nbsp;&nbsp;
+      {% include listperson.html %}&nbsp;&nbsp;
       {% endfor %}      
     </span>
   </p>
   {% if post.contact %}
   <p><b>DSI Academic:</b>&nbsp;&nbsp;
     {% for person in post.contact %}
-    {% include person.html %}&nbsp;&nbsp;
+    {% include listperson.html %}&nbsp;&nbsp;
     {% endfor %}
   </p>
   {% endif %}  
