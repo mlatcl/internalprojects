@@ -28,7 +28,7 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
-remote_theme: mlatcl/bulmalawrennd/proceedings
+remote_theme: lawrennd/proceedings
 style: mlatcl
 
 analytics:

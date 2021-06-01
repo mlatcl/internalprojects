@@ -12,8 +12,9 @@ title: Part III/MPhil Projects
   <label for="search-titles">Filter Titles:</label>
   <input type="search" name="filter-titles" id="search-titles" value />
 </div>
-{% for post in site.posts reverse %}
-{% if post.layout == "mphil" %}
+{% assign projects = site.projects | reverse %}
+{% for project in projects %}
+{% if project.layout == "mphil" %}
 {% include listproject.html %}
 {% endif %}
 {% endfor %}

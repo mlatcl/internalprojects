@@ -13,8 +13,9 @@ title: Part II Projects
     <label for="search-titles">Filter Titles:</label>
     <input type="search" name="filter-titles" id="search-titles" value />
 </div>
-{% for project in site.projects reverse %}
-{% if post.layout == "prtii" %}
+{% assign projects = site.projects | reverse %}
+{% for project in projects %}
+{% if project.layout == "prtii" %}
 {% include listproject.html %}
 {% endif %}
 {% endfor %}
