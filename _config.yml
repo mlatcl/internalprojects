@@ -1,17 +1,40 @@
 # Site settings
-title: Open Data Science Initiative Thesis Projects
-email: N.Lawrence@sheffield.ac.uk
+title: ML@CL MPhil/Part III and Part II Projects
+author:
+  name: ML@CL
+  github: mlatcl
 description: > # this means to ignore newlines until "baseurl:"
   Project offerings from the Open Data Science Initiative
-baseurl: "/dsiprojects" # the subpath of your site, e.g. /blog/
-url: "http://opendsi.cc" # the base hostname & protocol for your site
+baseurl: "/projects" # the subpath of your site, e.g. /blog/
+url: "http://mlatcl.github.io" # the base hostname & protocol for your site
 types:
 - name: bscproject
-  title: Undergraduate
+  title: Part II Projects
 - name: bscproject
-  title: Masters Projects
+  title: Part III MPhil Projects
 - name: phdproject
   title: PhD Projects
+
+collections:
+  projects:
+    output: true
+ghub:
+  edit: true
+  repository: projects
+future: true
+publisher: The Computer Laboratory
+
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlatcl/bulmalawrennd/proceedings
+style: mlatcl
+
+analytics:
+  google: 
+    tracking_id: UA-184894912-1
+future: true
 
 # Build settings
 markdown: kramdown
