@@ -4,7 +4,7 @@ title: Part II Projects
 ---
 
 
-<p>These projects are run by the open data science initiative. Different projects will be suitable for different students. If you wish to do a project with us then up to our capacity limit we will find a suitable project for you, but we cannot guarantee that all projects will be suitable for all students.</p>
+<p>These are some projects being run for Cambridge Computer Lab students by the ML@CL group.</p>
   
 <div id="sectionnav">
 
@@ -15,7 +15,7 @@ title: Part II Projects
 </div>
 {% assign projects = site.projects | reverse %}
 {% for project in projects %}
-{% if project.layout == "prtii" %}
+{% if project.categories contains 'prtii' %}
 {% include listproject.html %}
 {% endif %}
 {% endfor %}

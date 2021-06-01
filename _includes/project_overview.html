@@ -4,13 +4,13 @@
   <div id="supervisors">
     <br>
     {% for person in page.supervisors %}
-    {% include person.html %}
+    {% include listperson.html separator=','%}
     {% endfor %}
   </div>
   {% if page.contact %}
-  <h4>Open DSI Interface</h4>
+  <h4>ML@CL Contact</h4>
   {% for person in page.contact %}
-  {% include person.html %}
+    {% include listperson.html separator=','%}
   {% endfor %}
   {% endif %}
   <h2>Description</h2>

@@ -1,26 +1,26 @@
-{% if post.running %}
+{% if project.running %}
 <div class="paper">
   <hr>
-  <p class="title">{{ post.title }}</p>
+  <p class="title">{{ project.title }}</p>
   <p class="details">
     <span class="supervisors">
-      <b>Supervisor:</b>&nbsp;&nbsp; {% assign lastone = post.supervisors | last %}{% for person in post.supervisors %}
-      {% include listperson.html %}&nbsp;&nbsp;
+      <b>Supervisor:</b>&nbsp;&nbsp; {% assign lastone = project.supervisors | last %}{% for person in project.supervisors %}
+      {% include listperson.html separator=','%}
       {% endfor %}      
     </span>
   </p>
-  {% if post.contact %}
+  {% if project.contact %}
   <p><b>DSI Academic:</b>&nbsp;&nbsp;
-    {% assign lastone = post.contact | last %}
-    {% for person in post.contact %}
-    {% include listperson.html %}&nbsp;&nbsp;
+    {% assign lastone = project.contact | last %}
+    {% for person in project.contact %}
+      {% include listperson.html separator=','%}
     {% endfor %}
   </p>
   {% endif %}  
 </p>
-<p>{{ post.abstract | markdownify }}</p>
+<p>{{ project.abstract | markdownify }}</p>
 <p class="links">
-  [<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Project Page</a>]
+  [<a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}">Project Page</a>]
 </p>
 </div>
 {% endif %}
