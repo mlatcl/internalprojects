@@ -1,0 +1,21 @@
+---
+layout: page
+title: Part II Projects
+---
+
+
+<p>These projects are run by the open data science initiative. Different projects will be suitable for different students. If you wish to do a project with us then up to our capacity limit we will find a suitable project for you, but we cannot guarantee that all projects will be suitable for all students.</p>
+  
+<div id="sectionnav">
+
+  <label for="search-supervisors">Filter Supervisors:</label>
+  <input type="search" name="filter-supervisors" id="search-supervisors" value />
+    <label for="search-titles">Filter Titles:</label>
+    <input type="search" name="filter-titles" id="search-titles" value />
+</div>
+{% for project in site.projects reverse %}
+{% if post.layout == "prtii" %}
+{% include listproject.html %}
+{% endif %}
+{% endfor %}
+

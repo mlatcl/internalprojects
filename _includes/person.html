@@ -1,5 +1,0 @@
-{% if person.url %}
-<a href="{{ person.url }}">{{ person.firstname }} {{ person.lastname }}</a>{% if person.institute %}, {{ person.institute }}{% endif %}
-{% else %}
-{{ person.firstname }} {{ person.lastname }}{% if person.institute %}, {{ person.institute }}{% endif %}
-{% endif %}
