@@ -14,7 +14,7 @@ title: Part III/MPhil Projects
 </div>
 {% assign projects = site.projects | reverse %}
 {% for project in projects %}
-{% if project.layout == "mphil" %}
+{% if project.categories contains 'prtii' %}
 {% include listproject.html %}
 {% endif %}
 {% endfor %}
