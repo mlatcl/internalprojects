@@ -29,4 +29,8 @@ published: 2021-06-01
 * What is the objective of the project?
 
   You will provide a REST API that will allow researchers to explore academic research papers. There is flexibility, and you might provide data visualization tools in e.g. Bokeh that allow different views on the data.
+  
+* How does this fit in the bigger picture?
+
+  This project is part of a wider project called AutoAI. The aim is to build explainable and maintainable machine learning systems. You will have a chance to interact with the wider team and a successful project will form part of the portfolio of AutoAI demonstrations.
 
