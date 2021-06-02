@@ -39,3 +39,5 @@ future: true
 # Build settings
 markdown: kramdown
 permalink: "/:categories/:title.html"
+twitter_username: mlatcl
+github_username: mlatcl
