@@ -19,3 +19,13 @@ supervisors:
   url: http://inverseprobability.com
 published: 2021-06-01
 ---
+
+
+What will I learn in this Project?
+
+You will learn about the infrastructure behind data science and machine learning and how to build such infrastructure in a cloud environment.
+
+What is the objective of the project?
+
+You will provide a REST API that will allow researchers to explore academic research papers. There is flexibility, and you might provide data visualization tools in e.g. Bokeh that allow different views on the data.
+
