@@ -7,8 +7,6 @@ abstract: |-
 layout: project
 categories:
 - prtii
-- prtiii
-- mphil
 month: 0
 supervisors:
 - given: Eric
