@@ -11,8 +11,6 @@ abstract: |-
 layout: project
 categories:
   - prtii
-  - prtiii
-  - mphil
 month: 0
 supervisors:
   - given: Markus
@@ -21,7 +19,7 @@ supervisors:
   - given: Neil D.
     family: Lawrence
     url: http://inverseprobability.com
-published: 2021-06-01
+published: 2021-06-17
 ---
 
 ## FAQs
