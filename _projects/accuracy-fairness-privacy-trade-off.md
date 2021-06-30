@@ -22,7 +22,7 @@ published: 2021-06-30
 
 * What will I learn in this Project?
 
-  You will learn about differential privacy and fairness metrics for ML models. You will learn about Bayesian optimization and learn how to apply it to practical tasks. You will gain lots of practices of programming with PyTorch.
+  You will learn about differential privacy and fairness metrics for ML models. You will learn about Bayesian optimization and learn how to apply it to practical tasks. You will gain lots of practice of programming with PyTorch.
 
 * What is the objective of the project?
 
