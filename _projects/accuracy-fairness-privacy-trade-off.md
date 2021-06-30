@@ -3,10 +3,11 @@ running: True
 year: 2021
 title: "Automatic discovery of trade-off between accuracy, privacy and fairness for ML models"
 abstract: |-
-  When machine learning models are deployed to solve real world problems, they can often be trained on sensitive data, such as healthcare or financial records. Thus practitioners need to ensure fairness and privacy of training procedure. However in order to achieve certain privacy and fairness guarantees one normally needs to sacrifice accuracy of the model's predictions. Usually both privacy and fairness are set as fixed constraints, and the exact effect of such constraints on accuracy is unclear. This project proposes to develop a procedure of automatic discovery of the trade-off between these three metrics.
+  When machine learning models are deployed to solve real world problems, they are often trained on sensitive data, e.g. healthcare or financial records. Practitioners need to ensure fairness and privacy of the resulting model. Often privacy and fairness guarantees may only be achieved through sacrificing accuracy (as classically measured). Usually both privacy and fairness are set as fixed constraints, and the exact effect of such constraints on accuracy is unclear. This project proposes to develop a procedure of automatic discovery of the trade-off between these three metrics.
 layout: project
 categories:
 - mphil
+- prtiii
 month: 0
 supervisors:
 - given: Andrei
@@ -22,11 +23,11 @@ published: 2021-06-30
 
 * What will I learn in this Project?
 
-  You will learn about differential privacy and fairness metrics for ML models. You will learn about Bayesian optimization and learn how to apply it to practical tasks. You will gain lots of practice of programming with PyTorch.
+  You will learn about multi-objective optimisation. You will learn about differential privacy and fairness metrics for ML models. You will learn about Bayesian optimization and learn how to apply it to practical tasks. You will gain experience of building models using the PyTorch library.
 
 * What is the objective of the project?
 
-  The goal of the project is to implement a procedure of building a 3D Pareto frontier between accuracy, differential privacy and fairness (for some given fairness metric) for a selection of ML models and datasets. We suggest using BoTorch for multi-objective optimization and Opacus for training with differential privacy, but other tools can also be considered. Once the implementation is in place, the next step is to analyze the trade-offs and consider their implications for practical use cases.
+  The goal of the project is to implement a procedure of building a 3D Pareto front between accuracy, differential privacy and fairness (for some given fairness metric) for a selection of ML models and datasets. We suggest using BoTorch for multi-objective optimization and Opacus for training with differential privacy, but other tools can also be considered. Once the implementation is in place, the next step is to analyze the trade-offs and consider their implications for practical use cases.
 
 * Is there any background work on this topic?
 
