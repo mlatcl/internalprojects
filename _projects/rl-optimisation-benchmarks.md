@@ -3,7 +3,7 @@ running: True
 year: 2021
 title: "Optimisation Benchmarks for Online RL"
 abstract: |-
-  Reinforcement Learning algorithms have been applied in different domains (e.g., robotics and games). Now there is a growing interest in applying RL algorithms to optimisation problems. Such algorithms are a better alternative to produce near-optimal solutions in dynamic environments, compared against exact or approximation algorithms. Benchmarks are a key element in the development and evaluation of novel algorithms as they enable a standardised comparison of these algorithms' performance. In this project you will provide a set of optimisation benchmarks to evaluate online RL algorithms. 
+  Reinforcement Learning algorithms have been applied in different domains. Now there is a growing interest in applying RL algorithms to optimisation problems. Such algorithms are a better alternative to produce near-optimal solutions in dynamic environments, compared against exact or approximation algorithms. Benchmarks are a key element in the development and evaluation of novel algorithms as they enable a standardised comparison of these algorithms' performance. In this project you will provide a set of optimisation benchmarks to evaluate online RL algorithms. 
 layout: project
 categories:
 - prtii
@@ -28,7 +28,7 @@ published: 2021-07-05
    
 * What is the objective of the project?
 
-  You will provide the code for a set of optimisation problems benchmarks for online RL algorithms. These benchmarks include three well-known resource allocation problems (i.e., Bin Packing, Newsvendoor, and Vehicle Routing) with their respective baselines, and evaluation tools (e.g., automated performance graphs). The code must be built in a flexible fashion in a way that the sets of problems or baselines are easily extended in the future.
+  You will provide the code for a set of optimisation problems benchmarks for online RL algorithms based on [this paper](https://arxiv.org/abs/1911.10641). These benchmarks include three well-known resource allocation problems (i.e., Bin Packing, Newsvendoor, and Vehicle Routing) with their respective baselines, and evaluation tools (e.g., automated performance graphs). The code must be built in a flexible fashion in a way that the sets of problems or baselines are easily extended in the future.
     
 * How does this fit in the bigger picture?
 
