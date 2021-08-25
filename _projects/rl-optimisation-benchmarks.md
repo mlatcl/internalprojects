@@ -13,7 +13,7 @@ month: 0
 supervisors:
 - given: Pierre
   family: Thodoroff
-  url: pt440@cam.ac.uk
+  url: https://pierthodo.github.io/
 - given: Christian
   family: Cabrera
   url: https://www.cst.cam.ac.uk/people/chc79
