@@ -11,6 +11,9 @@ categories:
 - mphil
 month: 0
 supervisors:
+- given: Pierre
+  family: Thodoroff
+  url: pt440@cam.ac.uk
 - given: Christian
   family: Cabrera
   url: https://www.cst.cam.ac.uk/people/chc79
@@ -33,4 +36,3 @@ published: 2021-07-05
 * How does this fit in the bigger picture?
 
   This project is part of a wider project called AutoAI. The aim is to build explainable and maintainable machine learning systems. You will have a chance to interact with the wider team and a successful project will form part of the portfolio of AutoAI demonstrations.
-
